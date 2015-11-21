@@ -16,7 +16,7 @@ public class LocationService extends Service {
 
     public static final String BROADCAST_ACTION = "Hello World";
     private static final int TWO_MINUTES = 1000 * 60 * 2;
-    public LocationManager locationManager;
+   public LocationManager locationManager;
     public MyLocationListener listener;
     private String TAG = "LocationService";
     public Location previousBestLocation = null;
